@@ -1,5 +1,6 @@
 // --------------------------------------LAYOUT COMPONENT------------------------------
 
+import { ComponentsHandler } from "./components/uncontrol-control-components";
 // import { SplitScreen } from "./components/split-screen";
 // import { Modal } from "./components/Modal";
 // import { LargeAuthorListItem } from "./components/authors/LargeListItem";
@@ -95,11 +96,7 @@ function App() {
   //     />
   //   </>
   // );
-  return (
-    <>
-      <h1>Start Here</h1>
-    </>
-  );
+  return <ComponentsHandler />;
 }
 
 export default App;
