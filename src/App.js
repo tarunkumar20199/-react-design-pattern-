@@ -1,6 +1,7 @@
 // --------------------------------------LAYOUT COMPONENT------------------------------
 
-import { HigherOrderComponent } from "./components/higher-order-component";
+import { CustomHookComponents } from "./components/custom-hooks";
+// import { HigherOrderComponent } from "./components/higher-order-component";
 // import { ComponentsHandler } from "./components/uncontrol-control-components";
 // import { SplitScreen } from "./components/split-screen";
 // import { Modal } from "./components/Modal";
@@ -97,10 +98,13 @@ function App() {
   //     />
   //   </>
   // );
+
   // --------------------------------------CONTROL/UNCONTROL COMPONENT------------------------------
   // return <ComponentsHandler />;
 
-  return <HigherOrderComponent />;
+  // --------------------------------------CUSTOM HOOKS COMPONENT------------------------------
+
+  return <CustomHookComponents />;
 }
 
 export default App;
