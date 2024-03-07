@@ -1,6 +1,7 @@
 // --------------------------------------LAYOUT COMPONENT------------------------------
 
-import { ComponentsHandler } from "./components/uncontrol-control-components";
+import { HigherOrderComponent } from "./components/higher-order-component";
+// import { ComponentsHandler } from "./components/uncontrol-control-components";
 // import { SplitScreen } from "./components/split-screen";
 // import { Modal } from "./components/Modal";
 // import { LargeAuthorListItem } from "./components/authors/LargeListItem";
@@ -96,7 +97,10 @@ function App() {
   //     />
   //   </>
   // );
-  return <ComponentsHandler />;
+  // --------------------------------------CONTROL/UNCONTROL COMPONENT------------------------------
+  // return <ComponentsHandler />;
+
+  return <HigherOrderComponent />;
 }
 
 export default App;
