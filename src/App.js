@@ -1,6 +1,7 @@
 // --------------------------------------LAYOUT COMPONENT------------------------------
 
-import { CustomHookComponents } from "./components/custom-hooks";
+// import { CustomHookComponents } from "./components/custom-hooks";
+import { FunctionalComponent } from "./components/functional-programming";
 // import { HigherOrderComponent } from "./components/higher-order-component";
 // import { ComponentsHandler } from "./components/uncontrol-control-components";
 // import { SplitScreen } from "./components/split-screen";
@@ -103,8 +104,11 @@ function App() {
   // return <ComponentsHandler />;
 
   // --------------------------------------CUSTOM HOOKS COMPONENT------------------------------
+  // return <CustomHookComponents />;
 
-  return <CustomHookComponents />;
+  // --------------------------------------FUNCTIONAL COMPONENT------------------------------
+
+  return <FunctionalComponent />;
 }
 
 export default App;
