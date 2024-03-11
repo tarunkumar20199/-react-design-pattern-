@@ -3,7 +3,8 @@
 // import { CustomHookComponents } from "./components/custom-hooks";
 // import { FunctionalComponent } from "./components/functional-programming";
 // import { AdvancedCoomponent } from "./components/advanced-concept";
-import { ElementPropsComponent } from "./components/clean-code-tips";
+// import { ElementPropsComponent } from "./components/clean-code-tips";
+import { RouteComponents } from "./views/products";
 // import { MorePatterns } from "./components/more-patterns";
 // import { HigherOrderComponent } from "./components/higher-order-component";
 // import { ComponentsHandler } from "./components/uncontrol-control-components";
@@ -119,7 +120,10 @@ function App() {
   // return <AdvancedCoomponent />;
 
   // --------------------------------------ELEMENT PROPS COMPONENT------------------------------
-  return <ElementPropsComponent/>
+  // return <ElementPropsComponent/>
+
+  // --------------------------------------ELEMENT PROPS COMPONENT------------------------------
+  return <RouteComponents />;
 }
 
 export default App;
