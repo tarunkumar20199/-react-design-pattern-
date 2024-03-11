@@ -2,7 +2,9 @@
 
 // import { CustomHookComponents } from "./components/custom-hooks";
 // import { FunctionalComponent } from "./components/functional-programming";
-import { MorePatterns } from "./components/more-patterns";
+// import { AdvancedCoomponent } from "./components/advanced-concept";
+import { ElementPropsComponent } from "./components/clean-code-tips";
+// import { MorePatterns } from "./components/more-patterns";
 // import { HigherOrderComponent } from "./components/higher-order-component";
 // import { ComponentsHandler } from "./components/uncontrol-control-components";
 // import { SplitScreen } from "./components/split-screen";
@@ -111,7 +113,13 @@ function App() {
   // return <FunctionalComponent />;
 
   // --------------------------------------MORE COMPONENT------------------------------
-  return <MorePatterns />;
+  // return <MorePatterns />;
+
+  // --------------------------------------ADVANCED COMPONENT------------------------------
+  // return <AdvancedCoomponent />;
+
+  // --------------------------------------ELEMENT PROPS COMPONENT------------------------------
+  return <ElementPropsComponent/>
 }
 
 export default App;
