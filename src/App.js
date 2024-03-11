@@ -4,7 +4,8 @@
 // import { FunctionalComponent } from "./components/functional-programming";
 // import { AdvancedCoomponent } from "./components/advanced-concept";
 // import { ElementPropsComponent } from "./components/clean-code-tips";
-import { RouteComponents } from "./views/products";
+import { ApiLayer } from "./components/api-layer-and-async-operations";
+// import { RouteComponents } from "./views/products";
 // import { MorePatterns } from "./components/more-patterns";
 // import { HigherOrderComponent } from "./components/higher-order-component";
 // import { ComponentsHandler } from "./components/uncontrol-control-components";
@@ -123,7 +124,10 @@ function App() {
   // return <ElementPropsComponent/>
 
   // --------------------------------------ELEMENT PROPS COMPONENT------------------------------
-  return <RouteComponents />;
+  // return <RouteComponents />;
+
+  // --------------------------------------API Layer COMPONENT------------------------------
+  return <ApiLayer />;
 }
 
 export default App;
