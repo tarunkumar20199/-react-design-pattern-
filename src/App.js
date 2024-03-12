@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // --------------------------------------LAYOUT COMPONENT------------------------------
 
 // import { CustomHookComponents } from "./components/custom-hooks";
@@ -5,6 +6,7 @@
 // import { AdvancedCoomponent } from "./components/advanced-concept";
 // import { ElementPropsComponent } from "./components/clean-code-tips";
 import { ApiLayer } from "./components/api-layer-and-async-operations";
+import { ReactQueryComponent } from "./components/api-layer-and-react-query";
 // import { RouteComponents } from "./views/products";
 // import { MorePatterns } from "./components/more-patterns";
 // import { HigherOrderComponent } from "./components/higher-order-component";
@@ -127,7 +129,10 @@ function App() {
   // return <RouteComponents />;
 
   // --------------------------------------API Layer COMPONENT------------------------------
-  return <ApiLayer />;
+  // return <ApiLayer />;
+
+  // --------------------------------------REACT QUERY COMPONENT------------------------------
+  return <ReactQueryComponent />;
 }
 
 export default App;
