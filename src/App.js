@@ -7,6 +7,7 @@
 // import { ElementPropsComponent } from "./components/clean-code-tips";
 import { ApiLayer } from "./components/api-layer-and-async-operations";
 import { ReactQueryComponent } from "./components/api-layer-and-react-query";
+import { StateMangementComponent } from "./components/state-managment-pattern";
 // import { RouteComponents } from "./views/products";
 // import { MorePatterns } from "./components/more-patterns";
 // import { HigherOrderComponent } from "./components/higher-order-component";
@@ -132,7 +133,10 @@ function App() {
   // return <ApiLayer />;
 
   // --------------------------------------REACT QUERY COMPONENT------------------------------
-  return <ReactQueryComponent />;
+  // return <ReactQueryComponent />;
+
+  // --------------------------------------REACT QUERY COMPONENT------------------------------
+  return <StateMangementComponent />;
 }
 
 export default App;
